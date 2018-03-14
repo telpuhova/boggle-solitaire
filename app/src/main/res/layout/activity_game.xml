@@ -18,7 +18,8 @@
         android:gravity="left"
         android:numColumns="4"
         android:padding="0dp"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="70dp"/>
 
 
     <Button
