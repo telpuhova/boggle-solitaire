@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" android:theme="@style/NoActionBarTheme">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/NoActionBarTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,9 +21,12 @@
         <activity android:name=".GameActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.boop442.bogglesolitaire.MainActivity">
-
-            </meta-data>
+                android:value="com.boop442.bogglesolitaire.MainActivity"></meta-data>
+        </activity>
+        <activity android:name=".ResultsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.boop442.bogglesolitaire.GameActivity"></meta-data>
         </activity>
     </application>
 
